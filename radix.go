@@ -140,7 +140,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mediocregopher/radix/v3/resp"
+	"github.com/rickysland/radix/v3/resp"
 )
 
 var errClientClosed = errors.New("client is closed")
