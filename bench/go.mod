@@ -1,4 +1,4 @@
-module github.com/mediocregopher/radix/bench
+module github.com/rickysland/radix/bench
 
 require (
 	github.com/garyburd/redigo v1.6.0 // indirect
@@ -9,4 +9,4 @@ require (
 	github.com/mediocregopher/radix/v3 v3.2.0
 )
 
-replace github.com/mediocregopher/radix/v3 =>  ../.
+replace github.com/rickysland/radix/v3 =>  ../.
