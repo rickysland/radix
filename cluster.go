@@ -400,7 +400,7 @@ func (c *Cluster) syncEvery(d time.Duration) {
 	}()
 }
 
-func (c *Cluster) addrForKey(key string) string {
+func (c *Cluster) AddrForKey(key string) string {
 	s := ClusterSlot([]byte(key))
 	c.l.RLock()
 	defer c.l.RUnlock()
@@ -452,7 +452,7 @@ func (c *Cluster) Do(a Action) error {
 		return err
 	} else {
 		key = keys[0]
-		addr = c.addrForKey(key)
+		addr = c.AddrForKey(key)
 	}
 
 	return c.doInner(a, addr, key, false, doAttempts)
