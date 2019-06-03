@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mediocregopher/radix/v3/internal/bytesutil"
-	"github.com/mediocregopher/radix/v3/resp"
-	"github.com/mediocregopher/radix/v3/resp/resp2"
+	"github.com/mediocregopher/radix/internal/bytesutil"
+	"github.com/mediocregopher/radix/resp"
+	"github.com/mediocregopher/radix/resp/resp2"
 )
 
 // StreamEntryID represents an ID used in a Redis stream with the format <time>-<seq>.
