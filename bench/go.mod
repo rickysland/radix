@@ -9,4 +9,4 @@ require (
 	github.com/mediocregopher/radix/v3 v3.2.0
 )
 
-replace github.com/mediocregopher/radix/v3 =>  github.com/mediocregopher/radix
+replace github.com/mediocregopher/radix/v3 =>  ../.
